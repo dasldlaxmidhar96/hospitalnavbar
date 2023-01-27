@@ -20,11 +20,6 @@ const Login = () => {
       <div className="login-btn" onClick={popup}>
         LOGIN
       </div>
-      <p className="text">OR LOGIN USING</p>
-      <div className="alt-login">
-        <div className="facebook"></div>
-        <div className="google"></div>
-      </div>
     </div>
   );
 };

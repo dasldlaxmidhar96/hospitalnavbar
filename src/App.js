@@ -2,13 +2,15 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import Login from './Components/LoginForm/Login';
+import Registration from './Components/RegistrationForm/Registration';
+// import Login from './Components/LoginForm/Login';
 
 function App() {
   return (
     <div className="page">
       {/* <Navbar /> */}
-      <Login />
+      {/* <Login /> */}
+      <Registration />
       {/* <Routes>
         <Route path="/about-us" element={<Aboutus />} />
         <Route

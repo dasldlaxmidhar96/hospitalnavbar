@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(182, 211, 236);
 }
 
 .cover {
@@ -40,14 +41,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
-}
-
-.google {
-  background-image: url(../LoginForm/google.png);
-}
-
-.facebook {
-  background-image: url(../LoginForm/facebook.png);
 }
 
 input,
