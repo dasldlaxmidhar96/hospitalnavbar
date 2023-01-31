@@ -11,7 +11,7 @@ const Login = () => {
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col-12 col-md-8 col-lg-6 col-xl-5">
             <div
-              class="card bg-success text-white"
+              class="card bg-secondary text-white"
               style={{ borderRadius: '1rem' }}
             >
               <div class="card-body p-5 text-left">
@@ -20,7 +20,16 @@ const Login = () => {
                   <p class="text-white-50 mb-5">
                     Please enter your login and password!
                   </p>
-
+                  <div class="form-outline form-white mb-4">
+                    <label class="form-label" for="typeEmailX">
+                      Usertype
+                    </label>
+                    <input
+                      type="email"
+                      id="typeEmailX"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
                   <div class="form-outline form-white mb-4">
                     <label class="form-label" for="typeEmailX">
                       Username
