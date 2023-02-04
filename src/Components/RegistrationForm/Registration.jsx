@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Registration = () => {
+  const [firstname, setFirstname] = useState('');
+  const [lastname, setLastname] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [address, setAddress] = useState('');
+  const [birthday, setBirthday] = useState('');
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('You clicked submit.');
@@ -33,6 +40,8 @@ const Registration = () => {
                         <div className="form-outline">
                           <input
                             type="text"
+                            value={firstname}
+                            onChange={(e) => setFirstname(e.target.value)}
                             id="firstName"
                             className="form-control form-control-lg"
                           />
@@ -45,6 +54,8 @@ const Registration = () => {
                         <div className="form-outline">
                           <input
                             type="text"
+                            value={lastname}
+                            onChange={(e) => setLastname(e.target.value)}
                             id="lastName"
                             className="form-control form-control-lg"
                           />
@@ -60,6 +71,8 @@ const Registration = () => {
                         <div className="form-outline datepicker w-100">
                           <input
                             type="text"
+                            value={birthday}
+                            onChange={(e) => setBirthday(e.target.value)}
                             className="form-control form-control-lg"
                             id="birthdayDate"
                           />
@@ -121,6 +134,8 @@ const Registration = () => {
                         <div className="form-outline">
                           <input
                             type="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                             id="emailAddress"
                             className="form-control form-control-lg"
                           />
@@ -133,6 +148,8 @@ const Registration = () => {
                         <div className="form-outline">
                           <input
                             type="tel"
+                            value={phone}
+                            onChange={(e) => setPhone(e.target.value)}
                             id="phoneNumber"
                             className="form-control form-control-lg"
                           />
@@ -146,6 +163,8 @@ const Registration = () => {
                       <label for="exampleFormControlTextarea1">Addresss</label>
                       <textarea
                         className="form-control"
+                        value={address}
+                        onChange={(e) => setAddress(e.target.value)}
                         id="exampleFormControlTextarea1"
                         rows="3"
                       ></textarea>
