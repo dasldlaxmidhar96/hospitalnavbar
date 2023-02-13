@@ -93,8 +93,14 @@ header h1 {
   opacity: 1;
 }
 
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .faq-question > span {
   cursor: pointer;
-  margin-left: 40rem;
   font-size: 30px;
+  color: yellowgreen;
 }
