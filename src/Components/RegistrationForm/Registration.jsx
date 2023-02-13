@@ -65,7 +65,6 @@ const Registration = () => {
                         </div>
                       </div>
                     </div>
-
                     <div className="row">
                       <div className="col-md-6 mb-4 d-flex align-items-center">
                         <div className="form-outline datepicker w-100">
@@ -83,7 +82,6 @@ const Registration = () => {
                       </div>
                       <div className="col-md-6 mb-4">
                         <h6 className="mb-2 pb-1">Gender: </h6>
-
                         <div className="form-check form-check-inline">
                           <input
                             className="form-check-input"
@@ -100,7 +98,6 @@ const Registration = () => {
                             Female
                           </label>
                         </div>
-
                         <div className="form-check form-check-inline">
                           <input
                             className="form-check-input"
@@ -113,7 +110,6 @@ const Registration = () => {
                             Male
                           </label>
                         </div>
-
                         <div className="form-check form-check-inline">
                           <input
                             className="form-check-input"
@@ -128,7 +124,6 @@ const Registration = () => {
                         </div>
                       </div>
                     </div>
-
                     <div className="row">
                       <div className="col-md-6 mb-4 pb-2">
                         <div className="form-outline">
@@ -155,6 +150,46 @@ const Registration = () => {
                           />
                           <label className="form-label" for="phoneNumber">
                             Phone Number
+                          </label>
+                        </div>
+                      </div>
+                      <div className="col-md-6 mb-4 pb-2">
+                        <div className="form-outline">
+                          <input
+                            type="tel"
+                            id="phoneNumber"
+                            className="form-control form-control-lg"
+                          />
+                          <label className="form-label" for="phoneNumber">
+                            State
+                          </label>
+                        </div>
+                      </div>
+                      <div className="col-md-6 mb-4 pb-2">
+                        <div className="form-outline">
+                          <select
+                            class="form-select form-select-lg"
+                            aria-label=".form-select-lg example"
+                          >
+                            <option value="1">India</option>
+                            <option value="2">Japan</option>
+                            <option value="3">United State</option>
+                            <option value="3">South Africa</option>
+                          </select>
+                          <label className="form-label" for="phoneNumber">
+                            Country
+                          </label>
+                        </div>
+                      </div>
+                      <div className="col-md-6 mb-4 pb-2">
+                        <div className="form-outline">
+                          <input
+                            type="tel"
+                            id="phoneNumber"
+                            className="form-control form-control-lg"
+                          />
+                          <label className="form-label" for="phoneNumber">
+                            Pincode
                           </label>
                         </div>
                       </div>

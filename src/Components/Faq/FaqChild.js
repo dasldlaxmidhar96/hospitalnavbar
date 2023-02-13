@@ -7,7 +7,9 @@ const FaqChild = ({ faq, index, toggleFAQ }) => {
       key={index}
       onClick={() => toggleFAQ(index)}
     >
-      <div className="faq-question">{faq.question}</div>
+      <div className="faq-question">
+        {faq.question} <span>&#43;</span>
+      </div>
       <div className="faq-answer">{faq.answer}</div>
     </div>
   );

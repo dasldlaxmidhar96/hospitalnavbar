@@ -66,7 +66,6 @@ header h1 {
   width: 30px;
   height: 30px;
 
-  background-image: url('./arrow-down-mint.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -92,4 +91,10 @@ header h1 {
 .faqs .faq.open .faq-answer {
   max-height: 1000px;
   opacity: 1;
+}
+
+.faq-question > span {
+  cursor: pointer;
+  margin-left: 40rem;
+  font-size: 30px;
 }
